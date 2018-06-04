@@ -1,0 +1,22 @@
+{
+  "name": "connormcwood/cinemaretriever",
+  "description": "",
+  "license": "",
+  "authors": [
+    {
+      "name": "Connor Mcgarty-Wood",
+      "email": "connormcwood2@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "classmap":[
+      "src/Models"
+    ],
+    "psr-4": {
+      "Connormcwood\\CinemaRetriever\\": "src/"
+    }
+  }
+}
